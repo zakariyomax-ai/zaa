@@ -1,0 +1,6 @@
+{
+  "name": "Lobo — Karrampo Qiroli",
+  "description": "Ernest Seton-Tompsonning 'Lobo' hikoyasi bo'yicha interaktiv mobil ilova: hikoya, testlar, pazllar va qiziqarli o'yinlar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
