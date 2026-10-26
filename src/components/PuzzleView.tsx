@@ -21,28 +21,16 @@ interface PuzzleImage {
 
 const PUZZLE_IMAGES: PuzzleImage[] = [
   {
-    id: 'lobo-pack-32',
-    name: 'Lobo va galasi (32-bet)',
-    src: '/assets/aistudio/image_79f99cdd.png',
-    authorLabel: 'Darslik rangli rasmi'
-  },
-  {
-    id: 'lobo-sketch-39',
-    name: 'Lobo nigohi (39-bet)',
-    src: '/assets/aistudio/image_c3538cbe.png',
-    authorLabel: 'Seton-Tompson chizgan rasm'
+    id: 'author-portrait-main',
+    name: 'Ernest Seton-Tompson',
+    src: '/assets/aistudio/image_2a9fd81d.png',
+    authorLabel: 'Yozuvchi portreti'
   },
   {
     id: 'author-formal',
-    name: 'Ernest Seton-Tompson',
+    name: 'Seton-Tompson (Yoshlik)',
     src: '/assets/aistudio/image_0d9cf66a.png',
-    authorLabel: 'Muallif portreti'
-  },
-  {
-    id: 'blanca-trap-37',
-    name: 'Blanka (37-bet)',
-    src: '/assets/aistudio/image_c9715f44.png',
-    authorLabel: '1894-yilgi tarixiy rasm'
+    authorLabel: 'Tarixiy portret'
   },
   {
     id: 'author-nature',
@@ -186,7 +174,7 @@ export const PuzzleView: React.FC = () => {
               Rasm Pazli (Sliding Puzzle)
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-lg">
-              Katakchalarni bo'sh joyga siljitib, Ernest Seton-Tompson portretini yoki Lobo suratini to'liq yig'ing.
+              Katakchalarni bo'sh joyga siljitib, Ernest Seton-Tompson portretini to'liq yig'ing.
             </p>
           </div>
 
